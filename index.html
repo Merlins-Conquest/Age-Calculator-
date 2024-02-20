@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="text/javascript"  src = "script.js"></script>
+</head>
+<body>
+
+    <div class="container"> <!-- Flex Box  with direction columns -->
+
+        <div class="card-1"> <!--Card 1 top -->
+
+            <form id = 'myForm' >
+
+                    <div class="input-text">
+
+                        <div class="input-each">
+                            <label  for="day">DAY</label>
+                            <input type="text"  id="day" min="1" max = "31" placeholder="DD">
+                            
+                        </div>
+
+                        <div class="input-each">
+
+                            <label for="month">MONTH</label>
+                            <input type="text" id="month" min="1" max="12" placeholder="MM">
+
+                        </div>
+    
+                        <div class="input-each">
+
+                            <label  for="year">YEAR</label>
+                            <input type="text" id="year" placeholder="YYYY" >
+                        </div>
+
+                        
+                        
+                    </div>
+
+                    <div class="error">
+
+                        <span id = "day-error" class="day-error hide">Must be a valid day </span>
+                        <span id = "month-error" class="month-error hide">Must be a valid month </span>
+                        <span id = "year-error" class="year-error hide">Must be in the past </span>
+
+                    </div>
+
+
+                    <div class="middle"> <!-- Middle line with button-->
+
+
+                        
+                        <hr width="90%" size="1" color="grey">
+                        <input type="image" src = "down.jpg" name="submit" value = "Submit" >
+                    </div>
+
+            </form>
+   
+        </div> <!-- Card 1 End -->
+
+
+
+
+        <div class="card-2"> <!--Card 2 bottom -->
+
+            <h1 class = "display"> <span id = "years" class="years"> - -</span> years</h1>
+            <h1 class="display"><span id = "months" class="months"> - -</span> months</h1>
+            <h1 class = display><span id = "days" class="days"> - -</span> days</h1>
+
+
+
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

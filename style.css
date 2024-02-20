@@ -1,0 +1,134 @@
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    border-bottom-right-radius: 40%;
+}
+
+
+
+.card-1{
+    display:flex;
+}
+
+
+.input-text{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: gray;
+    margin-right: 0;
+    font-size: 10px;
+
+
+    
+
+}
+
+
+
+input[type=text]{
+    margin-top: .5rem;
+    width: 60%;
+    border: grey 2px solid;
+    height: 3rem;
+    border-radius: .5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px; 
+}
+
+
+
+
+label{
+    display: block;
+    width: 25%;
+}
+
+.input-each{
+    width: 10rem;
+}
+
+input[type=image]{
+    display: inline;
+    float: right;
+    width: 10%;
+    background: url('down.jpg');
+    border-radius: 2rem;
+    vertical-align: middle;
+    
+    
+}
+
+hr{
+    display: inline;
+    float: left;
+    vertical-align: middle;
+    
+
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.card-2{
+    display: block;
+    float: left;
+}
+
+.display{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 900;
+   font-style: italic;
+   font-size: 60px;
+   margin: 0;
+}
+
+.years,.months,.days{
+    color:#854cff;
+}
+
+
+
+.error{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color:red;
+    font-size: 12px;
+    font-style: italic;
+    
+    
+}
+
+.day-error{
+    margin-right: 1.5rem;
+}
+
+.month-error{
+    margin-right: 1.5rem;
+}
+
+.year-error{
+
+}
+
+.hide{
+    visibility: hidden;
+}
